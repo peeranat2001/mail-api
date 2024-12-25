@@ -15,7 +15,7 @@ const sendEmail = async (firstname, lastname, email, phone) => {
   // กำหนดข้อมูลของอีเมล
   const mailOptions = {
     from: `"ส่งคำขอนัดหมายสาธิตการใช้งานระบบ ERP" <${email}>`, // อีเมลผู้ส่ง
-    to: 'aomx2544@gmail.com',     // อีเมลผู้รับ
+    to: 'ss_bkk@softsquaregroup.com',     // อีเมลผู้รับ
     subject: `จากคุณ ${firstname} ${lastname} เรื่อง ขอนัดสาธิตการใช้งานระบบ ERP`,   // หัวข้ออีเมล
     text: `จากคุณ ${firstname} ${lastname} เรื่อง ขอนัดสาธิตการใช้งานระบบ ERP
 --- ช่องทางติดต่อกลับ ---
