@@ -8,6 +8,9 @@ app.use(cors());
 // ตั้งค่า middleware
 app.use(express.json());
 
+app.get('/', async (req, res) => {
+  res.status(200).send('Hello Email');
+});
 // API สำหรับส่งอีเมล
 app.post('/send-email', async (req, res) => {
   const { firstname, lastname, email, phone } = req.body;
